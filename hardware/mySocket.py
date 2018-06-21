@@ -105,9 +105,7 @@ def on_close(ws):
   logging.debug("closed")
 
 def on_open(ws):
-  subscribe(ws, "1", "")
-  subscribe(ws, "6", "")
-  subscribe(ws, "f6380db0-c00d-4e0c-8de6-bda0d83ab212", "")
+  subscribe(ws, "aee84c66-30e5-4b2f-b328-361add87d9c4", "")
 
 def subscribe(ws, channel, password):
   if(password == ""):
