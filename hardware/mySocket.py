@@ -39,7 +39,7 @@ def showCoffee():
       unicorn.set_pixel(7, 3-p, 0, 0 , 255)
     showPNG(coffeeImg)        
     unicorn.show()
-    time.sleep(2)
+    time.sleep(0.25)
     for p in range(min(4,n)):
       unicorn.set_pixel(7, 3-p, 0, 0 , 255)
     showPNG(coffeeImg1)
