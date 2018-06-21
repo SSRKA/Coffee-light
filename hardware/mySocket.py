@@ -34,7 +34,7 @@ def showPNG(image):
 def showCoffee():
   global i,n
   i=0
-  while i < 5:
+  while i < 10:
     for p in range(min(4,n)):
       unicorn.set_pixel(7, 3-p, 0, 0 , 255)
     showPNG(coffeeImg)        
@@ -44,7 +44,7 @@ def showCoffee():
       unicorn.set_pixel(7, 3-p, 0, 0 , 255)
     showPNG(coffeeImg1)
     unicorn.show()
-    time.sleep(2)
+    time.sleep(1)
     i=i+1
   unicorn.off()
 
