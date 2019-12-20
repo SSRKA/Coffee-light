@@ -1,5 +1,5 @@
 [Unit]
-Description=Websocket listener for coffee.waeco-soft.com
+Description=Websocket listener for coffee hardware
 After=network-online.target
 
 [Service]

@@ -105,7 +105,7 @@ def on_close(ws):
   logging.debug("closed")
 
 def on_open(ws):
-  subscribe(ws, "aee84c66-30e5-4b2f-b328-361add87d9c4", "")
+  subscribe(ws, "29a2f799-a4d4-40c0-a5ea-c4abdeff11ac", "")
 
 def subscribe(ws, channel, password):
   if(password == ""):
@@ -119,7 +119,7 @@ def subscribe(ws, channel, password):
 
 if __name__ == "__main__":
   websocket.enableTrace(True)
-  ws = websocket.WebSocketApp("wss://coffee.waeco-soft.com/websocket",
+  ws = websocket.WebSocketApp("wss://coffee.philipp1994.de/websocket",
                               on_message = on_message,
                               on_error = on_error,
                               on_close = on_close)
